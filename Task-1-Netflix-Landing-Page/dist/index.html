@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Netflix The Glory Landing Page</title>
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draft</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon"
+        href="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/036/original/Netflix_Symbol_RGB_cropped.png?1706648934">
+</head><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="content">
+
+    <!-- To Top Button -->
+    <button onclick="topFunction()" id="to-top" title="Go to top">&uarr;</button>
+
+    <!-- Navigation Bar -->
+    <div class="topnav" id="myTopnav">
+      <a href="https://www.netflix.com" class="symbol-div"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/037/original/Netflix_Logo_RGB.png?1706649012" id="netflix-symbol" alt="Netflix Symbol">
+      </a>
+      <div class="topnav-centered">
+        <a href="#home" class="active">Home</a>
+        <a rel="noopener" href="#cast_carousel">Characters</a>
+        <a href="https://www.netflix.com/gb/title/81519223#season-selector-container">Episodes</a>
+      </div>
+
+      <div class="topnav-right">
+        <a href="https://www.netflix.com/login" class="signin-btn button">Sign In</a>
+        <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <header>
+        <img src="https://images.workpointtoday.com/workpointnews/2022/07/23153907/1658565544_95426_1.png" alt="The Glory Logo" id="glory-logo">
+        <div class="banner">
+          <h1>The Glory</h1>
+          <p>Years after surviving horrific abuse in high school, a woman puts an elaborate revenge scheme
+            in motion to make the perpetrators pay for their crimes.</p><br>
+          <a href="https://www.netflix.com/title/81519223" class="cta-button">Watch Now</a>
+        </div>
+      </header>
+    </div>
+
+    <!-- Trailer Section -->
+    <div class="container">
+      <div class="image-stack">
+        <div class="image-stack__item image-stack__item--top">
+          <div class="trailer"><br>
+            <h2>Watch the Season 1 Trailer</h2>
+            <div class="container">
+              <iframe class="trailer-iframe" width="560" height="315" src="https://www.youtube.com/embed/tqVVrTvrI8U?si=OPQ0I__jtjZ1JlVU&amp;loop=1&amp;controls=0&amp;end=113" title="YouTube video player" frameborder="0" rel="0" loop="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="image-stack__item image-stack__item--bottom">
+          <div class="image-2">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/038/original/the-glory-images.jpeg?1706649063" id="bg-image-2" alt="Song Hye-go as Moon Dong-eun">
+          </div>
+        </div>
+
+        <!-- Responsive Carousel from https://codepen.io/noirsociety -->
+        <div class="image-stack__item image-stack__item--bottom2">
+          <main id="cast_carousel">
+            <ul class="slider">
+              <li class="item" style="background-image: url(https://photos.hancinema.net/photos/fullsizephoto1642778.jpg);">
+                <div class="carousel-content">
+                  <h1 class="title">Moon Dong-eun</h1>
+                  <p class="description">Moon Dong-eun was horrifically bullied by a group of her
+                    classmates. After dropping out of high school, Dong-eun has spent years
+                    preparing for revenge. After all, revenge is a dish best served cold.</p>
+                </div>
+              </li>
+              <li class="item" style="background-image: url(https://photos.hancinema.net/photos/fullsizephoto1597765.jpg);">
+                <div class="carousel-content">
+                  <h1 class="title">Park Yeon-jin</h1>
+                  <p class="description">As a teen, Yeon-jin was
+                    the most conniving of Dong-eun’s bullies. Her family's wealth ensured she
+                    never got in trouble for her crimes. As an adult, Yeon-jin is a popular
+                    weathercaster, married to a powerful man with an adorable daughter.
+                    But Yeon-jin has no idea Dong-eun has been tracking her — and her family — for
+                    years.</p>
+                </div>
+              </li>
+              <li class="item" style="background-image: url(https://photos.hancinema.net/photos/fullsizephoto1597757.jpg);">
+                <div class="carousel-content">
+                  <h1 class="title">Joo Yeo-jeong</h1>
+                  <p class="description">Medical intern Joo Yeo-jeong meets Dong-eun when they’re both
+                    inpatients at
+                    the hospital where he works. Absorbed by her revenge plot, Dong-eun is wary of
+                    his privileged life.
+                    Despite it all, their paths continue to intersect as she gets closer and closer
+                    to taking out her enemies. </p>
+                </div>
+              </li>
+              <li class="item" style="background-image: url(https://photos.hancinema.net/photos/fullsizephoto1629639.jpg);">
+                <div class="carousel-content">
+                  <h1 class="title">Jeon Jae-joon</h1>
+                  <p class="description">Jeon Jae-jun was another of Dong-eun’s bullies. Now he’s all
+                    grown up and owns a ritzy golf club. Jae-jun is still just as arrogant and
+                    insufferable as he was in high
+                    school — but now it’s Dong-eun who has the power to destroy his life. </p>
+                </div>
+              </li>
+            </ul>
+            <nav class='nav'>
+              <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
+              <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+            </nav>
+          </main>
+          <footer>
+            <div class="footer-box">
+              <div class="footer-links">
+                <a href="https://codepen.io/mink-a" class="fa fa-codepen"></a>
+                <a href="https://www.linkedin.com/in/minka27" target="_blank" class="fa fa-linkedin"></a>
+                <a href="https://github.com/minka-27" target="_blank" class="fa fa-github"></a>
+              </div>
+
+              <p class="text-center mt-5">
+                Coded by Minka Ansa for the
+                <a href="https://www.shecodes.io/contests/binge-worthy-tv-show" target="_blank">Binge
+                  Worthy TV Show</a> Challenge
+              </p>
+              <p class="web-warning">(This website looks best in a full-screen desktop browser)</p>
+            </div>
+          </footer>
+
+          <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
